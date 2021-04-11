@@ -4,6 +4,11 @@ const Count = {
     return {
       count: 0
     }
+  },
+  mounted(){
+    setInterval(() =>{
+      this.count++
+    },1000)
   }
 }
 
